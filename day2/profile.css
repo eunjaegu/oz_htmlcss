@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+}
+
+html{
+    background-color: #fff; /* 전체 배경은 흰색 */
+    font-size: 16px;
+}
+
+body{
+    width: 640px;
+    margin: auto; /*너비에서 남은 여백을 동일하게 분배*/
+}
+
+.content-container {
+    background-color: #f7d3db; /* 이 부분만 핑크 배경 */
+    padding-top: 20px; /* 여백 추가 */
+    padding-bottom: 50px;
+    border-radius: 10px; /* 모서리 둥글게 */
+}
+
+h1{
+    font-size: 48px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+}
+
+p{
+    font-size: 1.2rem; /*rem: html 폰트 사이즈 1.6px보다 1.5배 글자크기 키우다.*/
+    font-family: 'Roboto', sans-serif; /* Roboto 폰트로 변경, 구글에서 폰트 링크 가져오기 */
+}
+
+
+ 
